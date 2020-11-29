@@ -3,3 +3,9 @@
     padding: 0;
     justify-self: end;
 }
+
+@media screen and (min-width: 768px) {
+    .header__list-link {
+        margin-top: 18px;
+    }
+}

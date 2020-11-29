@@ -2,13 +2,21 @@
     color: #fff;
     text-decoration: none;
     font-size: 18px;
-    line-height: 20px;
+    line-height: 1.15;
 }
 
-.header__lang-link:hover {
-    text-decoration-line: underline;
+.header__lang-link:first-of-type {
+    margin-right: 18px;
+    text-decoration: underline;
 }
 
-.header__lang-link:last-of-type {
-    padding-left: 18px;
+@media screen and (min-width: 768px) {
+    .header__lang-link {
+        font-size: 24px;
+    }
+
+    .header__lang-link:hover {
+        opacity: .6;
+        transition: opacity linear 0.3s;
+    }
 }
