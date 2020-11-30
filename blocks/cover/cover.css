@@ -2,8 +2,12 @@
     background-image: url(../../images/cover-trains.jpg);
     background-size: cover;
     background-position: center;
-    padding: 10% 5% 10%;
     position: relative;    
+    color: #FFF;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    height: 62.5vw;
 }
 
 .cover::before {
@@ -19,10 +23,13 @@
 
 .cover:hover::before {
     opacity: .8;
+    transition: opacity .4s linear;
 } 
 
-@media screen and (min-width: 768px) {
+
+@media screen and (min-width: 1280px) {
     .cover {
-        padding: 15% 13.5% 15%;
+        max-width: 1184px;
+        height: 740px;
     }
 }

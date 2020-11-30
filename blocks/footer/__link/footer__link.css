@@ -20,7 +20,7 @@
     }
 
     .footer__link:hover {
-        opacity: .6;
+        opacity: .5;
         transition: opacity linear 0.3s;
     }
 }
