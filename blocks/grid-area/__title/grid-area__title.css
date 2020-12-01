@@ -1,4 +1,4 @@
-.plases__title {
+.grid-area__title {
     grid-area: title;
     font-size: 32px;
     line-height: 1.09;
@@ -9,7 +9,7 @@
 }
 
 @media screen and (min-width: 768px) {
-    .plases__title {
+    .grid-area__title {
         font-size: 42px;
         line-height: 1.1;
         margin: 0 0 23px 0;
@@ -18,7 +18,7 @@
 }
 
 @media screen and (min-width: 1024px) {
-    .plases__title {
+    .grid-area__title {
         font-size: 72px;
         line-height: 1.06;
         margin: 0 0 23px 0;

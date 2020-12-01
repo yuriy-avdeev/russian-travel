@@ -1,22 +1,22 @@
-.places__text {
+.grid-area__text {
     margin: 0 16px 0 16px;
     grid-area: text;
     font-size: 16px;
     line-height: 1.63;
 }
 
-.places__text:nth-of-type(2n) {
+.grid-area__text:nth-of-type(2n) {
     grid-area: text2;
 }
 
 @media screen and (min-width: 768px) {
-    .places__text {
+    .grid-area__text {
         margin: 0;
     }
 }
 
 @media screen and (min-width: 1024px) {
-    .places__text {
+    .grid-area__text {
         font-size: 18px;
     }
 }

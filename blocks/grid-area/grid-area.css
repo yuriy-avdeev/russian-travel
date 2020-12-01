@@ -1,4 +1,4 @@
-.places__grid-area {
+.grid-area {
     margin:0 0 49px;
     display: grid;
     grid-template-columns: 320px;
@@ -11,7 +11,7 @@
     "text2";
     }
 
-.places__grid-area:nth-of-type(5) {
+.grid-area:nth-of-type(5) {
     margin: 0;
     grid-template-areas: 
     "title" 
@@ -21,7 +21,7 @@
 
 
 @media screen and (min-width: 768px) {
-    .places__grid-area {
+    .grid-area {
         margin:0 0 73px;
         grid-template-columns: 340px 352px;
         grid-template-rows: repeat(3, auto);
@@ -32,7 +32,7 @@
         "image text2";
     }
 
-    .places__grid-area:nth-of-type(5) {
+    .grid-area:nth-of-type(5) {
         grid-template-areas: 
         "title website" 
         "image text";
@@ -40,7 +40,7 @@
 }
 
 @media screen and (min-width: 1024px) {
-    .places__grid-area {
+    .grid-area {
         margin:0 0 80px;
         grid-template-columns: 440px 456px;
         gap: 26px 32px;
@@ -48,7 +48,7 @@
 }
 
 @media screen and (min-width: 1280px) {
-    .places__grid-area {
+    .grid-area {
         grid-template-columns: 460px 484px;
         gap: 26px 40px;
     }

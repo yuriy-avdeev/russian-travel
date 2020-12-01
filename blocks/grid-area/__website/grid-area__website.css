@@ -1,4 +1,4 @@
-.places__website {
+.grid-area__website {
     grid-area: website;
     margin-bottom: 23px;
     align-self: end;
@@ -7,7 +7,7 @@
 
 
 @media screen and (max-width: 767px) {
-    .places__website {
+    .grid-area__website {
         display: none;
     }
 }
