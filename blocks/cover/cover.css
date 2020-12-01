@@ -1,7 +1,7 @@
 .cover {
     background-image: url(../../images/cover-trains.jpg);
     background-size: cover;
-    position: relative;    
+    position: relative;
     color: #FFF;
     margin: auto;
     display: flex;
