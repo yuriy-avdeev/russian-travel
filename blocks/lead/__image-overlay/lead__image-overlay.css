@@ -1,3 +1,5 @@
+/*p.s. - как вариант: фоном контейнера сделать polka ч/з стили, а way указать в разметке внутри бокса*/
+
 .lead__image-overlay {
     position: relative;
     z-index: 1;

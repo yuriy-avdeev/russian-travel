@@ -1,0 +1,26 @@
+.plases__title {
+    grid-area: title;
+    font-size: 32px;
+    line-height: 1.09;
+    font-weight: bold;
+    text-align: start;
+    align-self: end;
+    margin: 0 16px 0 16px;
+}
+
+@media screen and (min-width: 768px) {
+    .plases__title {
+        font-size: 42px;
+        line-height: 1.1;
+        margin: 0 0 23px 0;
+        width: min-content;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .plases__title {
+        font-size: 72px;
+        line-height: 1.06;
+        margin: 0 0 23px 0;
+    }
+}

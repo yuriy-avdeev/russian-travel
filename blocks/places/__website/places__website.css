@@ -1,0 +1,13 @@
+.places__website {
+    grid-area: website;
+    margin-bottom: 23px;
+    align-self: end;
+    width: fit-content;
+}
+
+
+@media screen and (max-width: 767px) {
+    .places__website {
+        display: none;
+    }
+}
