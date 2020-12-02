@@ -2,11 +2,12 @@
     padding: 64px 118px 24px 16px;
     color: #fff;
     margin: auto;
+    max-width: 1184px;
 }
 
 @media screen and (min-width: 768px) {
     .footer {
-        padding: 88px 24px 24px;
+        padding: 88px 25px 25px;
         display: flex;
         justify-content: space-between;
     }
@@ -15,13 +16,5 @@
 @media screen and (min-width: 1024px) {
     .footer {
         padding: 92px 48px 24px;
-        display: flex;
-        justify-content: space-between;
-    }
-}
-
-@media screen and (min-width: 1280px) {
-    .footer {
-        max-width: 1280px;
     }
 }

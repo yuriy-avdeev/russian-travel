@@ -1,6 +1,5 @@
 .grid-area__website {
     grid-area: website;
-    margin-bottom: 23px;
     align-self: end;
     width: fit-content;
 }

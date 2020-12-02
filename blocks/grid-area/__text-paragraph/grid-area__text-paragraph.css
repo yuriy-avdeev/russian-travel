@@ -1,0 +1,13 @@
+.grid-area__text-paragraph {
+    margin: 25px 0 0;
+}
+
+.grid-area__text-paragraph:first-of-type {
+    margin: 0;
+}
+
+@media screen and (min-width: 1024px) {
+    .grid-area__text-paragraph:nth-of-type(2n) {
+        margin-top: 27px;
+    }
+}

@@ -1,25 +1,25 @@
 .grid-area__image {
     grid-area: image;
-    width: 320px;
-    margin: 8px 0;
+    max-width: 320px;
 }
 
 @media screen and (min-width: 768px) {
     .grid-area__image {
         margin: 0;
-        width: 340px;
+        max-width: 340px;
     }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 772px) {
     .grid-area__image {
-        width: 440px;
+        width: 44.5vw;
+        max-width: 440px;
     }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1280px) {
     .grid-area__image {
-        width: 460px;
+        max-width: 460px;
     }
 }
 

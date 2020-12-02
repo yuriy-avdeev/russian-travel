@@ -1,0 +1,8 @@
+.main-picture__way {
+    width: 96%;
+    max-width: 886px;
+    position: absolute;
+    top: 14%;
+    left: 50%;
+    transform: translate(-50%);
+}

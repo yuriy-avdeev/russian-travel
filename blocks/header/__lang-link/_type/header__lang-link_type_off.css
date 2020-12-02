@@ -1,0 +1,9 @@
+.header__lang-link_type_off {
+    text-decoration: none;
+    margin: 0;
+}
+
+.header__lang-link_type_off:hover {
+    opacity: .5;
+    transition: opacity linear 0.3s;
+}

@@ -3,13 +3,13 @@
     line-height: 1.1;
     text-align: center;
     width: fit-content;
-    margin: 0 auto 0;
+    max-width: 720px;
+    margin: 0;
 }
 
 @media screen and (min-width: 768px) {
     .lead__title {
         font-size: 96px;
         line-height: 1.04;
-        width: 720px;
     }
 }

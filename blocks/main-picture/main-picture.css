@@ -1,0 +1,13 @@
+.main-picture {
+    margin: 0;
+    position: relative;
+    width: 100vw;
+    max-width: 928px;
+}
+
+@media screen and (min-width: 1280px) {
+    .main-picture {
+    max-width: 984px;
+    }
+}
+
