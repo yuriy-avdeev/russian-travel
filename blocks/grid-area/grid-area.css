@@ -1,6 +1,6 @@
 .grid-area {
     display: grid;
-    grid-template-columns: 320px;
+    grid-template-columns: auto;
     grid-template-rows: repeat(3, auto);
     row-gap: 32px;
     grid-template-areas: 

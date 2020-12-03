@@ -1,14 +1,8 @@
 .grid-area__image {
     grid-area: image;
     width: 100%;
-    max-width: 320px;
-}
-
-@media screen and (min-width: 768px) {
-    .grid-area__image {
-        margin: 0;
-        max-width: 340px;
-    }
+    max-width: 340px;
+    justify-self: center;
 }
 
 @media screen and (min-width: 772px) {

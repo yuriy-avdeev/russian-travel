@@ -1,8 +1,3 @@
 .header__lang-link_type_on {
-    margin: 0 18px 0 0;
-}
-
-.header__lang-link_type_on:hover {
-    opacity: .5;
-    transition: opacity linear 0.3s;
+    text-decoration: underline;
 }

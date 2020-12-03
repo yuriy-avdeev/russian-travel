@@ -1,19 +1,22 @@
 .header__lang-link {
-    display: flex;
     color: #fff;
     font-size: 18px;
     line-height: 1.15;
-    margin: 0 0 8px;
     padding: 0;
-    list-style: none;
-    width: fit-content;
-    height: fit-content;
+    text-decoration: none;
+}
+
+.header__lang-link:last-of-type {
+    margin: 0 0 0 18px;
+}
+
+.header__lang-link:hover {
+    opacity: .5;
+    transition: opacity linear 0.3s;
 }
 
 @media screen and (min-width: 768px) {
     .header__lang-link {
         font-size: 24px;
-        margin: 0 0 6px;
     }
 }
-
