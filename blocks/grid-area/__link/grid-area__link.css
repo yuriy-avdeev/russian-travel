@@ -1,10 +1,10 @@
-.grid-area__website_link {
+.grid-area__link {
     font-size: 18px;
     line-height: 1.22;
     color: #fff;
 }
 
-.grid-area__website_link:hover {
+.grid-area__link:hover {
     opacity: .5;
     transition: opacity linear 0.3s;
 }

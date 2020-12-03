@@ -10,7 +10,6 @@
 @media screen and (min-width: 768px) {
     .places {
         margin: 0 auto 90px;
-        /* width: 93.75vw; */
         max-width: 928px;
     }
 }
@@ -18,7 +17,6 @@
 @media screen and (min-width: 1024px) {
     .places {
         margin: 0 auto 92px;
-        /* width: 90.625vw; */
         max-width: 984px;
     }
 }

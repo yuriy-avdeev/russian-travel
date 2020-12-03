@@ -35,8 +35,8 @@
 @import url(../blocks/grid-area/__text/grid-area__text.css);
 @import url(../blocks/grid-area/__text-paragraph/grid-area__text-paragraph.css);
 @import url(../blocks/grid-area/__website/grid-area__website.css);
-@import url(../blocks/grid-area/__website/kind/grid-area__website_link.css);
-@import url(../blocks/grid-area/__website/kind/grid-area__website_url-heading.css);
+@import url(../blocks/grid-area/__link/grid-area__link.css);
+@import url(../blocks/grid-area/__url-heading/grid-area__url-heading.css);
 
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/cover/__title/cover__title.css);

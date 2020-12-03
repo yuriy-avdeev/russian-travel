@@ -1,4 +1,5 @@
 .header__lang-link {
+    display: flex;
     color: #fff;
     font-size: 18px;
     line-height: 1.15;

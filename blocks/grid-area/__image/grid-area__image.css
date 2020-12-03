@@ -1,5 +1,6 @@
 .grid-area__image {
     grid-area: image;
+    width: 100%;
     max-width: 320px;
 }
 

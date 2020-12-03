@@ -1,6 +1,6 @@
 .lead {
     color: #FFF;
-    margin: 48px auto 64px;
+    margin: 49px auto 64px;
     width: 100vw;
     max-width: 928px;
     display: flex;
@@ -11,6 +11,6 @@
 @media screen and (min-width: 1280px) {
     .lead {
         max-width: 984px;
-        margin: 56px auto 92;
+        margin: 58px auto 92px;
     }
 }

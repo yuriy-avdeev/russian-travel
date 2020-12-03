@@ -12,6 +12,12 @@
         font-size: 5.46875vw;
         line-height: 1.1;
         margin: 0;
+        width: 97%;
+    }
+}
+
+@media screen and (min-width: 772px) {
+    .grid-area__title {
         width: min-content;
     }
 }
